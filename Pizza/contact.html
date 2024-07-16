@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="p-icon" href="foto/logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T-Pizzeria</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/facebook.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <body>
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="/foto/logo.png" class="logo" alt="Logo">
+                    </a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+                <div class="empty"></div> <!-- This helps to push the links to the center -->
+                <a href="shopping.html" class="shopping-cart-icon" title="Go to shopping cart">
+                    <i style="font-size:24px" class="fa">&#xf07a;</i><!-- FontAwesome shopping cart icon -->
+                </a>
+            </div>
+    </header>
+
+<main>
+    <div class="slider">
+        <div class="slide" id="slide1">
+            <p class="slidercontact">Just a call away!</p>
+            <img src="foto/hero_bg_3_1.png" alt="Image 1">
+        </div>
+        <div class="slide" id="slide2">
+            <img src="foto/image_6.jpg" alt="Image 2">
+        </div>
+    </div>
+
+    <section class="contact-section">
+        <h2>Contact Us</h2>
+        
+        <div class="contact-form">
+            <form action="#contact" method="post">
+                <!-- Name -->
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your name" required>
+                </div>
+                
+                <!-- Email -->
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your email" required>
+                </div>
+                
+                <!-- Subject -->
+                <div class="form-group">
+                    <label for="phone">Phone</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Your phone number" required>
+                </div>
+                
+                <!-- Message -->
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Your message" required></textarea>
+                </div>
+                
+                <!-- Submit Button -->
+                <div class="form-group">
+                    <button id="send-message-button" type="submit">Send Message</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+
+
+    <footer class="footer">
+        <div class="footer-container">
+          <!-- Quick Links Section -->
+          <div class="footer-section">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="products.html">Products</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+          </div>
+      
+          <!-- About Us Section -->
+          <div class="footer-section">
+            <h3>About Us</h3>
+            <p>We are a team of passionate individuals dedicated to delivering the best services in the industry. Our mission is to provide exceptional value to our clients and build lasting relationships.</p>
+          </div>
+      
+          <!-- Location Section -->
+          <div class="footer-section">
+            <h3>Location</h3>
+            <p>Prishtinë<br>
+            Kosovo<br>
+            Zip Code: 10000<br>
+            Phone: +383 43 886 311</p>
+          </div>
+        </div>
+      
+        <!-- Copyright Section -->
+        <div class="footer-copyright">
+          <p>&copy; 2024 T-AGENCY. All rights reserved.</p>
+        </div>
+      </footer>
+      
+    
+
+</main>
+<script src="/js/main.js"></script>
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+</html>
